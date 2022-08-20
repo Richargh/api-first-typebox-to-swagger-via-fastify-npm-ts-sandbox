@@ -14,6 +14,10 @@
     * Check the generate Schema: `http GET http://localhost:8080/docs/json`
     * View the [Swagger UI](http://localhost:8080/docs/) 
 
+## Troubleshooting
+
+* Take care to always add routes inside a `.register` block. Otherwise swagger does not seem to pick up on them.
+
 ## Created via
 
 * `npm init -y`
